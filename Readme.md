@@ -2,5 +2,5 @@
 
 ## Ingeniería en Sístemas Computacionales 
 
-**Nombre** *Myriam Yazmin Patiño Segura*
+**Nombre** *Myriam Yazmin Patiño Segura*  
 **Num control** *19100231*
