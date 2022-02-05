@@ -3,4 +3,6 @@
 ## Ingeniería en Sístemas Computacionales 
 
 **Nombre** *Myriam Yazmin Patiño Segura*  
-**Num control** *19100231*
+**Num control** *19100231*  
+
+Prueba de texto 
