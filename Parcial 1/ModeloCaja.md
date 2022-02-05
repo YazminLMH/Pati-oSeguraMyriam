@@ -12,7 +12,7 @@ Las partes del modelo de caja son las siguientes:
 
 entre el margin y el padding  encontramos el **border** el cual requiere de 3 valores (width,style y color) para poder ser visualizado correctamente.
 
-cuando se desea hacer que un borde sea redondeado se utiliza la propiedad de border-radius. Esta modifica la forma en la que se muestran las esquinas de nuestra caja, border-radius acepta
+cuando se desea hacer que un borde sea redondeado se utiliza la propiedad de border-radius. Esta modifica la forma en la que se muestran las esquinas de nuestra caja, border-radius acepta valores en pixeles y en porcentajes, ademas podemos establecer valores para cada borde por separado. 
 
 
 
