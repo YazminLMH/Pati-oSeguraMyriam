@@ -2,7 +2,9 @@
 ## DEFINICION DE CAJA   
 
 El modelo de caja es la manera en que se representan todos los elementos html en una pagina. Cada elemento genera una caja, el comportamiento de esa caja depende de su clasificacion: si es de línea o de bloque.  
-A todas las cajas de les puede aplicar las siguientes propiedades: Width, height,padding,margin, border,background.  
+A todas las cajas de les puede aplicar las siguientes propiedades: Width, height,padding,margin, border,background.
+
+Cada elemento que encontramos dentro de un documento de HTML se encuentra en una caja rectangular, la cual cuenta con una serie de propiedades que afectaran el como se muestran los elementos. 
 
 Las partes del modelo de caja son las siguientes:
 1. Content: Se trata del contenido HTML del elemento (palabras de un parrafo, una imagen,el texto de una lista de elementos,etc.) 
