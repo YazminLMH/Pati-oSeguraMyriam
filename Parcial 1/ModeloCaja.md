@@ -13,8 +13,7 @@ Las partes del modelo de caja son las siguientes:
 4. Margin: El margen es la capa mas extrema. Envuelve el contenido, el relleno y el borde como espacio en blanco entre la caja y otros elementos. Es posible controlar su tamaño usando la propiedad margin y otras propiedades relacionadas.  
 
 entre el margin y el padding  encontramos el **border** el cual requiere de 3 valores (width,style y color) para poder ser visualizado correctamente.
-
-cuando se desea hacer que un borde sea redondeado se utiliza la propiedad de border-radius. Esta modifica la forma en la que se muestran las esquinas de nuestra caja, border-radius acepta valores en pixeles y en porcentajes, ademas podemos establecer valores para cada borde por separado. 
+Cuando se desea hacer que un borde sea redondeado se utiliza la propiedad de border-radius. Esta modifica la forma en la que se muestran las esquinas de nuestra caja, border-radius acepta valores en pixeles y en porcentajes, ademas podemos establecer valores para cada borde por separado. 
 
 
 
