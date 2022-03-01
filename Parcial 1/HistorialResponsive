@@ -1,0 +1,87 @@
+HTML
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="Tabla.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        Historial Academico
+    </title>
+</head>
+
+<body>
+    <!--<div id="main-container">-->
+    <h1>
+        Historial Academico
+    </h1>
+    <table>
+        <thead>
+            <tr>
+                <th>Nivel</th>
+                <th>Periodo</th>
+                <th>Institucion Educativa</th>
+                <th>Documentos obtenidos</th>
+                <th>Comentarios</th>
+            </tr>
+        </thead>
+
+        <tr>
+            <td>Preescolar </td>
+            <td>2005-2007</td>
+            <td>Maria de la luz Salazar</td>
+            <td> Certificado de kinder</td>
+            <td>Estuve en dos instituciones, curse mi primer año en un kinder de la ciudad de mexico,pero despues nos
+                mudamos a nuevo laredo y aqui termine de estudiar.</td>
+        </tr>
+
+        <tr>
+            <td>Escuela Primaria</td>
+            <td>2007-2013</td>
+            <td>Esc.Prof.Rafael Ramirez</td>
+            <td>-Certificado de primaria, Diploma de 1er lugar de aprovechamiento </td>
+            <td>En esta etapa nacio mi hermanita y fue una etapa muy feliz de mi vida</td>
+        </tr>
+
+        <tr>
+            <td>Secundaria</td>
+            <td>2013-2016</td>
+            <td>Secundaria Tecnica 32# Lic. Adolfo Lopez Mateos</td>
+            <td>-Certificado de secundaria,diploma de 1er lugar de aprovechamiento, 3er lugar de generacion</td>
+            <td>En esta etapa pude estar en la escolta y fue una experiencia muy bonita , mi posicion en la escolta fue
+                del
+                lado izquierdo del abanderado</td>
+
+        </tr>
+
+        <tr>
+            <td>Preparatoria</td>
+            <td>2016-2019</td>
+            <td>Colegio Louis Pasteur</td>
+            <td>-Certificado de Preparatoria,Diploma de 1er lugar de 6xto Semestre , -Diploma de 1er lugar de generacion
+            </td>
+            <td>En esta etapa fui abanderada de la escolta, obtuve primer lugar de la generacion y de 6xto semestre.
+            </td>
+
+
+        </tr>
+
+        <td>Universidad</td>
+        <td>2019-Actualidad(2022-I)</td>
+        <td>Instituto Tecnologico De Nuevo Laredo </td>
+        <td>--</td>
+        <td>En lo personal esta etapa a sido bastante importante,y debido a que es la ultima etapa y solo me faltan 2
+            años
+            por concluirla, fue dificil ya que desde 2ndo semestre estamos en clases en linea, sin embargo, me
+            acostumbre
+            rapido a esta modalidad. </td>
+    </table>
+
+
+    <!-- </div>-->
+
+</body>
+
+</html>
