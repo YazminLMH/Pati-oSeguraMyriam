@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="MenuAcordeon.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class = "container" >
+  
+   <section id ="menu1" >
+        <a href = "#menu1">Inicio</a>
+        <p>Hola,Bienvenido!! </p>
+   </section>
+
+
+   <section  id ="menu2" >
+        <a href="#menu2">Información</a>
+        <p>Este es un ejemplo de un menu acordeon relizado con html y css </p>
+   </section>
+
+
+    <section id="menu3" >
+        <a href="#menu3">Institucion</a>
+        <p>Tecnologico de Nuevo Laredo </p>
+    </section>
+
+
+    <section id="menu4"Menu 4 >
+      <a href="#menu4">Contacto</a>
+      <p>L19100231@nlaredo.tecnm.mx </p>
+    </section>
+
+
+
+
+
+
+</div>
+
+</body>
+</html>
