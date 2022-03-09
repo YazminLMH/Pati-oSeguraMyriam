@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+* {
+  box-sizing:border-box;
+  margin: 0;
+  padding: 0;
+}
+
+div.sidebar {
+  position: fixed;
+  background-color:#1D2951;
+  width: 200px;
+  height: 100%;
+  overflow: auto;
+  letter-spacing: 3px;
+  font-weight: 600;
+   border-radius: 3px;
+  transition:all 0.5s;
+ 
+  }
+
+
+a {
+  display: block;
+  text-decoration: none;
+  padding: 5px;
+  color:white;
+  font-size:20px;
+  font-weight: 600;
+  font-family:bookantique;
+line-height :70px;
+transition:  0.5s;
+  
+}
+
+a:hover {
+  background-color: rgb(20,54,165);
+  color: white;
+  font-size:20px;
+  font-weight: 600;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  line-height:70px;
+padding-left: 15px; 
+ 
+}
+
+div.sidebar{
+  font-family: bookantique;
+  color:aqua;
+}
+
+div.content {
+  background-color: #293d80;
+  margin-left: 200px;
+  padding: 1px 16px;
+  height: 1500px;
+  font-size:20px;
+  font-weight: 600;
+  color:white;
+  font-family:'Courier New', Courier, monospace;
+  line-height :70px;
+   border-radius: 3px;
+   
+   
+
+}
+
+.side-menu span {
+  margin-left:20px;
+}
+
+.contenidoOpcion { display: none; }
+
+#opcion1:target,
+#opcion2:target,
+#opcion3:target,
+#opcion4:target { display: block;}
+
+
+
+input {display: none;}
+
+input:checked + .sidebar{
+  width:0px;
+}
+
+input:checked ~ .content {
+  margin-left: 0px;
+}
+
+/*Media*/
+
+@media screen and (max-width: 1200px) {
+  div.sidebar {
+    position: relative;
+    width: 100%;
+    height: auto;
+    letter-spacing:normal;
+    transition:all 0.5s;
+ 
+  }
+
+  .sidebar a {float: left;}
+  .sidebar a{margin-left:30px}
+
+  div.content {margin-left: 0;}
+}
+
+@media screen and (max-width: 600px) {
+  .sidebar a {
+    float: none;
+    text-align: center;
+  }
+}
