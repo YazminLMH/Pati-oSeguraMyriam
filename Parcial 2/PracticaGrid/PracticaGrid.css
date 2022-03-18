@@ -27,6 +27,7 @@
     height:150px;/* si no se pone height la caja va a llenar el padre en altura*/
     background-color: white;
     text-align: center;
+    border-radius: 20px;
 
 }
 
@@ -34,6 +35,5 @@
    grid-column-start:1 ;
    grid-column-end: 3; 
     background-color:aqua;
-    
-    
+ 
 }
