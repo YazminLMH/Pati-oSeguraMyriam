@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+* {box-sizing:border-box;
+   margin: 0;
+   padding: 0;
+}
+
+div.contenedor {
+  display:flex;
+  flex-direction:row;
+  width:100vw;
+  height:100vh;
+  color:white;
+}
+
+div.sidebar {
+
+  background-color:#1D2951;
+  width: 200px;
+transition:all 0.5s;
+  width:200px;
+  text-align:center;
+  letter-spacing:3px;
+font-weight: 60px;
+padding: 2px;
+}
+
+div.titulo{
+    font-family: bookantique;
+    color:aqua;
+    
+}
+
+div.content {
+  background-color: #293d80;
+  padding: 1px 16px;
+  flex-grow:2;
+}
+
+a { display: block;
+  text-decoration: none;
+  padding: 5px;
+  color:white;
+  font-size:20px;
+  font-weight: 600;
+  font-family:bookantique;
+line-height :70px;
+transition:  0.5s;
+}
+
+a:hover {  background-color: rgb(20,54,165);
+  color: white;
+  font-size:20px;
+  font-weight: 600;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  line-height:70px;
+padding-left: 15px; 
+}
+
+
+
+
+
+
+@media screen and (max-width: 1200px) {
+  div.contenedor {
+    flex-direction:column;
+  }
+
+  div.sidebar {
+    display: flex;
+    width: 100%;
+    justify-content:flex-end3;
+  }
+}
+ .sidebar a{margin-left:30px}
+
+ @media screen and (max-width: 500px) {
+
+  div.sidebar {
+    width: 100%;
+    flex-direction: column;
+  }
+}
