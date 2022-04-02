@@ -13,5 +13,6 @@ La propagacion ocurre cuando un evento ocurre en un elemento y este, primero eje
 Tambien los suelen llamar burbuja ya que se van "expandiendo" los eventos uno por uno
 
 ![Imagen](https://miro.medium.com/max/724/0*xx90C4a2Np_gz0w8.png)
+
 en la figura anterior se puede apreciar mucho mejor la definicion de propagacion  
 
