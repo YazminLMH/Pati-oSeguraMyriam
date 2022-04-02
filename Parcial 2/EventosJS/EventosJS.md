@@ -12,6 +12,6 @@ Este evento comienza desde el evento al que se dio el clic y se propaga hasta qu
 La propagacion ocurre cuando un evento ocurre en un elemento y este, primero ejecuta los manejadores que tiene asignados, luego los manejadores de su padre, y así sucesivamente.
 Tambien los suelen llamar burbuja ya que se van "expandiendo" los eventos uno por uno
 
-![Imagen](img.jpg)
+![Imagen](https://miro.medium.com/max/724/0*xx90C4a2Np_gz0w8.png)
 en la figura anterior se puede apreciar mucho mejor la definicion de propagacion  
 
