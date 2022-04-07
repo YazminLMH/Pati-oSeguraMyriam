@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="JQuery.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.js"
+        integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <title>Flexbox</title>
+</head>
+
+<body>
+    <div id="idcontene" class="contenedor">
+        <div id="caja1" class="caja">Caja 1</div>
+        <div id="caja2" class="caja">Caja 2</div>
+        <div id="caja3" class="caja">Caja 3</div>
+        <div id="caja4" class="caja">Caja 4</div>
+        <div id="caja5" class="caja">Caja 5</div>
+
+    </div>
+    <script>
+
+        /*    window.onload = function () {
+                   document.getElementById("idcontene").addEventListener("click", function (evento) {
+                       console.log(evento.target.id);
+                       document.getElementById(evento.target.id).classList.toggle("cajaAmarilla");
+                   });
+               }
+          */
+
+        $(document).ready(function () {
+            $('#idcontene').click(function (e) {
+                console.log(e);
+                $(e.target).toggleClass('cajaAmarilla');
+            });
+        })
+
+
+
+
+    </script>
+</body>
+
+</html>
