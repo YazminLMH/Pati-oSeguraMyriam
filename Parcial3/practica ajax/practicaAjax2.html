@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+        integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+   
+  <link rel="stylesheet" href="PracticaAjax.css">  
+   
+    <title>Document</title>
+</head>
+
+<body>
+   
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF"
+    crossorigin="anonymous"></script>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script>
+
+
+   
+
+
+ 
+<div id="datos"></div>
+   
+    <div class="container">
+        <form name="formulario1">
+
+            <h2 id="Cabeza">Formulario</h2>
+            <br>
+
+            <div class="row">
+                <div class="form-group col-sm-12 col-md-3 col-lg-12">
+
+                  <!--   Funcion Ajax para cambiar el titulo del formulario-->   
+                    <label for="Num. de control" class="control-label">Num. de control</label>
+                    <input id="Num. de control" oninput="ajaxFunction();" type="text" class="form-control"
+                        placeholder="19100111" />
+                </div>
+
+
+                <div class="form-group col-sm-12 col-md-9 col-lg-12">
+                    <label for="Nombre">Nombre de alumno</label>
+                    <input id="Nombre" type="text" class="form-control" placeholder="Nombre Ap Paterno Ap Materno" />
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="form-group col-sm-12 col-md-4 col-lg-3">
+                    <label for="semestre">Semestre</label>
+                    <input id="Semestre" type="text" class="form-control" placeholder="Semestre Actual" />
+                </div>
+
+                <div class="form-group col-sm-12 col-md-8 col-lg-3">
+                    <label for="Carrera">Carrera</label>
+                    <input id="Carrera " type="text" class="form-control" placeholder="nombre de carrera" />
+                </div>
+
+                <div class="form-group col-sm-12 col-md-6 col-lg-3">
+                    <label for="Especialidad">Especialidad</label>
+                    <input id="Especialidad" type="text" class="form-control" placeholder="Especialidad" />
+                </div>
+
+                <div class="form-group col-sm-12 col-md-6 col-lg-3">
+                    <label for="Estado carrera">Estado Carrera</label>
+                    <input id="Estado carrera" type="text" class="form-control" placeholder="Regular / Irregular" />
+                </div>
+
+            </div>
+
+            <div class="row">
+
+
+                <div class="form-group col-sm-12 col-md-8 col-lg-4">
+                    <label for="Correo">Correo Institucional</label>
+                    <input id="Correo" type="text" class="form-control" placeholder="Alumno@Example.tecnm.mx" />
+                </div>
+
+                <div class="form-group col-sm-12 col-md-4 col-lg-4">
+                    <label for="telefono">Telefono</label>
+                    <input id="telefono" type="text" class="form-control" placeholder="(Lada)-Numero " />
+                </div>
+
+            </div>
+            <br>
+
+
+            <button type="submit" class="btn btn-primary">Submit </button>
+<button id="cargar" type="button" class="btn btn-primary"> Ajax </button>
+
+<div id="datos"></div>
+
+
+
+<script src="practicaAjaxx.js"></script>
+            
+        </form>
+
+        <div>
+         
+</body>
+
+</html>
