@@ -1,6 +1,15 @@
 <?php
 
-$iduser=$_POST['par1'];
+
+
+$numero=$_POST['num'];
+$nom=$_POST['nom'];
+$sem=$_POST['sem'];
+$car=$_POST['car'];
+$esp=$_POST['esp'];
+$est=$_POST['est'];
+$cor=$_POST['cor'];
+$tel=$_POST['tel'];
 
 $hostname='localhost';
 $database='L19100231';
@@ -16,10 +25,10 @@ try {
     exit();
 }
 
-//$con->setAttribute(PDO::ATTR_ERRMODE,PDO::ERRMODE_EXCEPTION);
-
 try {
-$consultaSql = "select * from alumno where numero_de_control= ".$iduser;
+$consultaSql = "insert into Alumno(numero_de_control,nombre_de_alumno,semestre,carrera,especialidad,estado_carrera,correo_institucional,telefono)
+values('$numero','$nom','$sem','$car','$esp','$est','$cor','$tel')";
+
 $consulta = $con -> prepare($consultaSql);
 $consulta -> execute();
 $resultado = $consulta->fetch(PDO::FETCH_ASSOC);
