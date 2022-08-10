@@ -5,7 +5,7 @@ $iduser=$_POST['par1'];
 $hostname='localhost';
 $database='L19100231';
 $username='root';
-$password='';
+$password='1234';
 $port='3307';
 
 try {
